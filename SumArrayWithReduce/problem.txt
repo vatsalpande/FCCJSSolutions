@@ -1,0 +1,1 @@
+Use the reduce method to sum all the values in array and assign it to singleVal.
