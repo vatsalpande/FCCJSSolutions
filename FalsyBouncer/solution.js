@@ -3,7 +3,9 @@
     function bouncer(arr) {
         // Don't show a false ID to this bouncer.
         var filteredArray = arr.filter(function (item) {
-            return (item) && (item !== null);
+            if(item){
+                return item;
+            };
         });
         return filteredArray;
     }

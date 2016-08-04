@@ -24,3 +24,15 @@
     //chunkArrayInGroups(["a", "b", "c", "d"], 2) should return [["a", "b"], ["c", "d"]].
 
 })();
+
+/**
+
+ 00:53
+ @vatsalpande in your for loop iterate array length by sizeß
+ var arr2D=[];
+ for(var x=0;x<arr.length;x+=size){
+    arr2D.push(arr.slice(x,x+size));
+  }
+ return arr2D;
+
+ */
