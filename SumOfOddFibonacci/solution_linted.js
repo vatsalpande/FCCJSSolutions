@@ -1,8 +1,6 @@
 (function Sum() {
     "use strict";
     function sumFibs(num) {
-
-
         var a = 0;
         var b = 1;
         var c;
